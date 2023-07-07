@@ -6,6 +6,7 @@ REPO_DIR = pathlib.Path(__file__).parent.resolve()
 QUESTIONS = {
     "[NAME]": "Your first/last name",
     "[EMAIL]": "Your email address",
+    "[USER]": "Your github user name",
     "[PROJECT]": "The name of the project",
 }
 
