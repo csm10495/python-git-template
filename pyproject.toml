@@ -15,6 +15,11 @@ classifiers = [
 requires-python = ">=3.8"
 dependencies = []
 
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
 [project.urls]
 homepage = "https://github.com/[USER]/[PROJECT]"
 repository = "https://github.com/[USER]/[PROJECT]"
@@ -33,7 +38,7 @@ version = {attr = "[PROJECT].__version__"}
 
 [tool.pytest.ini_options]
 pythonpath = [
-  "."
+    "."
 ]
 
 [build-system]
