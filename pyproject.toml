@@ -3,7 +3,7 @@ name = "[PROJECT]"
 description = "A project for [PROJECT]"
 dynamic = ["version"]
 authors = [{name = "[USER]", email = "[EMAIL]"}]
-license = {text = "MIT License"}
+license = "MIT"
 classifiers = [
     "Intended Audience :: Developers",
     "Natural Language :: English",
@@ -28,6 +28,9 @@ documentation  = "https://[USER].github.io/[PROJECT]"
 [project.readme]
 file = "README.md"
 content-type = "text/markdown"
+
+[project.scripts]
+[PROJECT] = "[PROJECT].__main__:main"
 
 [tool.setuptools]
 packages = ["[PROJECT]"]

@@ -38,4 +38,8 @@ if __name__ == "__main__":
     replace_in_file_names(qanda)
     replace_in_files(qanda)
 
+
+    print("""You still need to:
+    - Add Read/Write access for the GITHUB_TOKEN during GHA runs. Check actions settings on the Github repo. It defaults to read-only.
+    - Add a PYPI_PASSWORD secret to the repo for uploading to PyPi.""")
     print("Done!")
