@@ -3,7 +3,7 @@ name = "[PROJECT]"
 description = "A project for [PROJECT]"
 dynamic = ["version"]
 authors = [{name = "[USER]", email = "[EMAIL]"}]
-license = "MIT"
+license = {file = "LICENSE.md"}
 classifiers = [
     "Intended Audience :: Developers",
     "Natural Language :: English",
